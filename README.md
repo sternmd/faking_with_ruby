@@ -37,3 +37,19 @@ def to_s
   "The movie is called #{title}, directed by #{director}. The movie plot: #{plot}"
 end
 ```
+
+
+## Faker
+This gem is a port of Perl's Data::Faker library that generates fake data.
+
+```rb
+Faker::Name.name      #=> "Christophe Bartell"
+
+Faker::Internet.email #=> "kirsten.greenholt@corkeryfisher.info"
+
+Faker::Address.city #=> "Imogeneborough"
+
+Faker::Address.street_name #=> "Larkin Fork"
+
+Faker::Address.street_address #=> "282 Kevin Brook"
+```
